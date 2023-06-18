@@ -1,0 +1,25 @@
+
+#caja{
+    line-height: 20px;
+    margin-left: 100px;
+    margin: 50px;
+    margin-left: 80px;
+}
+#uno{
+    font-size: 40px;
+    font-weight: bold;
+}
+#dos{
+    text-decoration-line: underline;
+    color: #FAF703;
+    font-weight: bold;
+    font-size: 40px;
+
+}
+#tres{
+    text-decoration-line: underline;
+    color: #8116AF;
+    font-weight: bold;
+    font-size: 30px;
+
+}

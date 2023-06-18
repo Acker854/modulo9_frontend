@@ -1,0 +1,35 @@
+
+#caja{
+    margin: 50px;
+    margin-left: 80px;
+
+}
+p{
+    font-size: 12px;
+    line-height: 20px;
+}
+.uno{
+    text-decoration: underline;
+    color: #049E1C ;
+}
+.dos{
+    color: #F71203;
+    font-weight: bold;
+}
+.tres{
+    text-decoration-line: overline underline;
+}
+.cuatro{
+    font-size: 40px;
+    font-weight: bold;
+
+}
+.cinco{
+    font-weight: bold;
+    color: #1203F7 ;
+}
+.seis{
+    text-decoration-line: underline;
+    color:#F71203;
+    font-weight: bold;
+}

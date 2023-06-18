@@ -1,0 +1,76 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+/*definimos el tamaño de la caja a manejar*/
+*:after {
+    box-sizing: inherit;
+}
+/*definimos la fuente y el lugar de margen, adicionalmente el color de fondo */
+body {
+    background-color: rgba(144, 214, 214);
+    font: 1.2em/1.2 Helvetica, aria, sans-serif;
+    margin: 0 3%;
+}
+
+h1 {
+    font-size: 1.8em;
+    margin: .9em 0 0 0;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin: 1.5em 0 0 0;
+}
+
+img {
+    max-width: 100%;
+}
+/*definimos el como se van a ver las imagenes  */
+figure {
+    background: rgba(0, 0, 0 );
+    border-radius: 5px;
+    color: rgba(255, 255, 255) ;
+    margin: 0 0 25px 0;
+    padding: 10px;
+    text-align: center;
+
+}
+
+figcaption {
+    font-size: .8em;
+}
+/*De acuerdo a la definicion de nuestras pantallas
+podemos tener diferentes tipo de color de pantalla*/
+
+/*el color de fondo de pantalla en una resolucion de 194px
+en adelante */
+@media screen and (min-width: 794px) {
+    body {
+        background: rgba(0, 0, 255, .2);
+        margin: 25px 6%;
+    }
+
+    figure {
+        float: left;
+        width: 45%;
+        margin-right: 4.5%;
+    }
+}
+/*el color de fondo de pantalla en una resolucion de 1020px
+en adelante */
+
+@media screen and (min-width: 1020px) {
+    body {
+        background: rgba(255, 0, 0, 0.2);
+        margin: 25px 10%;
+        max-width: 1130px;
+    }
+
+    figure {
+        width: 30%;
+        margin-right: 2.5%;
+    }
+}
